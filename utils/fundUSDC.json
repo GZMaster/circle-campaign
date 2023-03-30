@@ -2,17 +2,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "address",
-				"name": "usdcContractAddress",
-				"type": "address"
-			}
-		],
-		"stateMutability": "nonpayable",
-		"type": "constructor"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "uint256",
 				"name": "$USDC",
 				"type": "uint256"
@@ -29,11 +18,22 @@
 		"type": "function"
 	},
 	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "usdcContractAddress",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
 		"inputs": [],
-		"name": "USDc",
+		"name": "owner",
 		"outputs": [
 			{
-				"internalType": "contract USDC",
+				"internalType": "address payable",
 				"name": "",
 				"type": "address"
 			}
@@ -43,10 +43,10 @@
 	},
 	{
 		"inputs": [],
-		"name": "owner",
+		"name": "USDc",
 		"outputs": [
 			{
-				"internalType": "address payable",
+				"internalType": "contract USDC",
 				"name": "",
 				"type": "address"
 			}
